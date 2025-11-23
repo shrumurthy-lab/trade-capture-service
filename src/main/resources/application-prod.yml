@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  kafka:
+    # Actual hostname/IP of production Kafka cluster
+    bootstrap-servers: prod-kafka-cluster:9092
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: WARN
+    com.example.instructions: INFO

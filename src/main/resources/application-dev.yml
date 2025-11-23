@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+  kafka:
+    # Connects to Kafka running locally on the host machine (e.g., via Docker on 9092)
+    bootstrap-servers: localhost:9092
+
+server:
+  port: 8080 # Same as default
+
+logging:
+  level:
+    root: DEBUG
+    com.example.instructions: DEBUG

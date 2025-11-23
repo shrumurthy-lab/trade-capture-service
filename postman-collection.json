@@ -1,0 +1,18 @@
+{
+  "info": { "name": "Instructions Capture API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "item": [
+    {
+      "name": "Upload CSV",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": { "mode": "formdata", "formdata": [ { "key": "file", "type": "file", "src": "sample-input/trades.csv" } ] },
+        "url": { "raw": "http://localhost:8080/api/trades/upload", "host": [ "http://localhost:8080" ], "path": [ "api", "trades", "upload" ] }
+      }
+    },
+    {
+      "name": "List store",
+      "request": { "method": "GET", "url": { "raw": "http://localhost:8080/api/trades/store", "host": [ "http://localhost:8080" ], "path": [ "api", "trades", "store" ] } }
+    }
+  ]
+}

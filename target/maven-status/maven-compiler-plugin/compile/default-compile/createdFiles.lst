@@ -1,0 +1,12 @@
+com/example/instructions/service/KafkaListenerService.class
+com/example/instructions/service/KafkaPublisher.class
+com/example/instructions/service/TradeService.class
+com/example/instructions/controller/TradeController.class
+com/example/instructions/util/TradeTransformer.class
+com/example/instructions/model/CanonicalTrade.class
+com/example/instructions/config/SwaggerConfig.class
+com/example/instructions/InstructionsCaptureApplication.class
+com/example/instructions/service/InMemoryStore.class
+com/example/instructions/model/PlatformTrade$Trade.class
+com/example/instructions/config/KafkaConfig.class
+com/example/instructions/model/PlatformTrade.class
